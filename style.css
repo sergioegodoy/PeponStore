@@ -1,0 +1,192 @@
+/* cambiamos color de fondo*/ 
+#body-principal {
+    background-color: #BCE29E;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    font-family: 'Fasthand', 'cursive';
+    color: #3C4048;
+    font-size: 40px
+}
+
+.subtitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Le quitamos las viñetas a li*/ 
+#menu ul {
+    display: flex;
+    list-style: none;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+#menu li a {
+    text-decoration: none;
+    color: white
+}
+
+    
+.novedades-texto {
+   width: 400px;
+   max-width: 50%;
+   margin: auto;
+   text-align: center;
+   padding: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+#pieDePagina {
+    text-align: center;
+}
+
+#padreimagen {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.redes {
+    text-align: center;
+    padding: 20px 2px 2px 2px;
+}
+
+#pieDePagina {
+    text-align: center;
+}
+
+
+/*CSS DE PRODUCTOS-CONTACTO*/
+
+
+#body-producto {
+    background-color: #CCF3EE;
+}
+
+.principal-m {
+    font-family: 'Fasthand', cursive;
+    color: #3C4048;
+    font-size: 40px
+}
+
+.subtitulo-m {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#botonInicio {
+    display:inline-block;
+    width:auto;
+    padding:5px 10px;
+}
+
+
+#titulo-marca {
+    font-family: 'Lobster', 'cursive';
+    height: auto;
+    font-size: 20px;
+
+}
+
+.redes {
+    text-align: center;
+    padding: 20px 2px 2px 2px;
+}
+
+#pieDePagina {
+    text-align: center;
+}
+
+.producto {
+    display: grid;
+    place-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.producto-funciones, ul{
+text-align: center;
+list-style: none;
+}
+
+.botonPago {
+    display: grid;
+    place-content: center;
+    padding:5px 10px;
+    background-color: rgba(224, 235, 70, 0.829);
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.botonPago a {
+    text-decoration: none;
+    color: rgb(7, 6, 6)
+}
+
+/*CSS DE FORULARIOS*/
+
+#titulo-formulario {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#formulario {
+    display: grid;
+    background-color: #fff;
+    margin: auto; width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow:  5px 10px -5px rgb(5/30%);
+    text-align:   center;
+ }
+
+ .formulario1 {
+    display: grid;
+    margin-top: 3em;
+    gap: 2.5em;
+ }
+
+ .form_imput {
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 16px;
+    padding: .96px .48px;
+    border: none;
+    border-bottom: 1px solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.form_enviar {
+    background-color: #BCE29E;
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .16rem 0;
+    border: none;
+    border-radius: .5em;
+}
+
+/*INICIA MODELO MOBILE*/
+@media screen and (min width: 320)

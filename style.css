@@ -1,7 +1,6 @@
 /* cambiamos color de fondo*/ 
 #body-principal {
-    background-color: #BCE29E;
-    margin: 0;
+    background-image: linear-gradient(to right top, #128762, #3b9c5b, #65b04e, #95c23a, #cad022);    margin: 0;
     padding: 0;
 }
 
@@ -18,7 +17,7 @@
 
 /* Le quitamos las viñetas a li*/ 
 #menu ul {
-    producto
+    display: flex;
     list-style: none;
     background-color: black;
     margin: 0;
@@ -45,7 +44,7 @@
 }
 
 #video {
-    producto
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 40px;
@@ -189,24 +188,17 @@ list-style: none;
 }
 
 /*INICIA MODELO MOBILE*/
-
-@media screen and (max-width: 1440px) {
-    #body-principal {
-        background-color: red;
-    }
-}
    
 
 @media screen and (max-width: 320px)  {
     #body-principal {
-        background-color: blue;
+        background-color: #22A39F;
     }
-    .producto {
-        display: grid;
-        place-content: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
 
+    #formulario {
+        display: grid;
+        padding: 1.5rem 0.5rem ;
+    }
 }
 
  

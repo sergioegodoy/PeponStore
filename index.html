@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
 <body id="body-principal">
     
@@ -20,14 +22,35 @@
     <h3 class="subtitulo">La tecnología al alcance de tu mano</h3>
 </div>
 
-<nav id="menu">
-    <ul><!--Lista de Marcas-->
-        <li><a href="pages/motorola.html">Motorola</a></li>
-        <li><a href="pages/samsung.html">Samsung</a></li>
-        <li><a href="pages/Xiaomi.html">Xiaomi</a></li>
-        <li><a href="pages/contacto.html">Contacto</a></li>
-    </ul>
-</nav>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PeponStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pages/motorola.html">Motorola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/samsung.html">Samsung</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/Xiaomi.html">Xiaomi</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 
 <br>
@@ -44,19 +67,32 @@
 
 
 
-<div id="padreimagen">
-    <div class="img1">
-        <img src="imagenes/motog52.webp" width="250" height="250" alt="Moto G52">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-
-   <div class="img2">
-        <img src="imagenes/FLIP 4.jpg" width="250" height="250" alt="Flip 4">
-   </div>
-
-    <div class="img3">
-        <img src="imagenes/Xiaomi 11 Lite 5G NE 6GB 128GB.jpg" width="250" height="250" alt="Xiaomi 11 Lite 5G NE">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/MOTO EDGE 30 PRO 1200.webp" class="d-block w-100" alt="MOTO EDGE 30">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/FLIP 4 FULL.webp" class="d-block w-100" alt="FLIP 4">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/MI 11 LITE.webp" class="d-block w-100" alt="MI 11 LITE">
+      </div>
     </div>
-</div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
 <!-- Acá está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
@@ -69,6 +105,9 @@
     
     <p>© PeponStore 2022</p>
 </footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </body> 
 </html>

@@ -7,7 +7,9 @@
 .principal {
     font-family: 'Fasthand', 'cursive';
     color: #3C4048;
-    font-size: 40px
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .subtitulo {

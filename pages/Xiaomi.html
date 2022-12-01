@@ -10,6 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet"><body>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
 <body id="body-producto">
 
@@ -21,14 +23,35 @@
        
     
 
-<nav id="menu">
-    <ul><!--Lista de Marcas-->
-        <li><a href="motorola.html">Motorola</a></li>
-        <li><a href="samsung.html">Samsung</a></li>
-        <li><a href="Xiaomi.html">Xiaomi</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</nav>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PeponStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/motorola.html">Motorola</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/samsung.html">Samsung</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Xiaomi.html">Xiaomi</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 <div id="botonInicio">
     <a href="../index.html"><img src="../imagenes/inicio.png" alt=""></a>

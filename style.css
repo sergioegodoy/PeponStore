@@ -21,7 +21,7 @@
 #menu ul {
     display: flex;
     list-style: none;
-    background-color: black;
+    background-color: red;
     margin: 0;
     padding: 10px;
     flex-direction: row;

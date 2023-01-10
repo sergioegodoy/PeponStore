@@ -79,6 +79,9 @@ footer {
 
 /*CSS DE PRODUCTOS-CONTACTO*/
 
+#titulo-marca {
+  padding: 1.5rem 0.5rem ;
+}
 
 #body-producto {
   background-color: #CCF3EE;
@@ -206,3 +209,4 @@ list-style: none;
       padding: 1.5rem 0.5rem ;
   }
 }
+
